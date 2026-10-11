@@ -1,0 +1,386 @@
+[
+  {
+    "id": "PUB-01",
+    "name": "Public landing",
+    "arabic": "الصفحة العامة",
+    "route": "/",
+    "access": "public UI observed; incognito guard unverified",
+    "sections": [
+      "SIMAH Business Services brand/logo",
+      "Arabic and English brand heading",
+      "Integrated service-business management platform subtitle",
+      "Welcome card",
+      "Sign in or create an account introductory copy"
+    ],
+    "fields": [],
+    "actions": [
+      "Sign in → /login",
+      "Language control titled English; alternate-language state not applied",
+      "Theme menu: Light / Dark / System; no preference applied"
+    ],
+    "verifiedStates": "Arabic landing loaded, Sign in link present",
+    "limits": "No registration link, public service catalog, privacy or terms link exposed; anonymous-cookie access not tested",
+    "evidence": "Visible browser UI, 2026-10-09; existing Chrome session retained"
+  },
+  {
+    "id": "PUB-02",
+    "name": "Login",
+    "arabic": "تسجيل الدخول",
+    "route": "/login",
+    "access": "public UI observed; incognito guard unverified",
+    "sections": [
+      "SIMAH Business Services logo",
+      "Sign in card",
+      "Email and password guidance",
+      "Language and theme controls",
+      "Notification/alert region"
+    ],
+    "fields": [
+      {
+        "label": "البريد الإلكتروني",
+        "type": "email",
+        "required": true,
+        "placeholder": "user@example.com",
+        "autocomplete": "Not specified"
+      },
+      {
+        "label": "كلمة المرور",
+        "type": "password",
+        "required": true,
+        "placeholder": null,
+        "autocomplete": "Not specified"
+      }
+    ],
+    "actions": [
+      "Sign in submit button enabled initially; NOT clicked",
+      "Theme menu: Light / Dark / System; menu opened without selecting",
+      "Language control titled English; alternate-language state not applied"
+    ],
+    "verifiedStates": "Empty email and masked password inputs; native required attributes verified; no form submission",
+    "limits": "No forgot-password, registration, remember-me, password visibility or legal link exposed. Invalid credentials, recovery, MFA, redirects and authenticated landing after login remain unverified.",
+    "evidence": "Visible browser UI and rendered input attributes, 2026-10-09; waited six seconds"
+  },
+  {
+    "id": "P01",
+    "name": "Dashboard",
+    "arabic": "الرئيسية",
+    "route": "/portal/simah",
+    "sections": [
+      "Date and personalized welcome",
+      "KPIs: active projects, annual contracts, due payments, new messages, ready reports",
+      "Recent projects and View all",
+      "New service and Open support ticket shortcuts",
+      "Recent activity"
+    ],
+    "fields": [],
+    "actions": [
+      "Project/contract/report KPIs → Projects",
+      "Payments → Invoices",
+      "Messages → Messages",
+      "New service → Catalog",
+      "Support → Support center"
+    ],
+    "verifiedStates": "Zero counters; no active projects or recent activity",
+    "limits": "Populated dashboard/project records unavailable",
+    "evidence": "Verified accessible page; listed downstream limitations"
+  },
+  {
+    "id": "P02",
+    "name": "Hisana readiness",
+    "arabic": "حصانة",
+    "route": "/portal/simah/readiness",
+    "sections": [
+      "Introduction/privacy and Start",
+      "Five-question quick check; first question company age",
+      "Radio options: <1 year / 1–3 years / >3 years; 1 of 5 progress; Back",
+      "Stage tracker: quick check → tracks → deep dive → report",
+      "Referenced score 0–100, prioritized gaps, one recommended solution/gap and official PDF"
+    ],
+    "fields": [
+      "First question: radio options; no answer entered"
+    ],
+    "actions": [
+      "Start assessment (opened earlier)",
+      "Back",
+      "Referenced report/download/solution"
+    ],
+    "verifiedStates": "Introduction and first-question entry",
+    "limits": "Remaining questions/branching/results unverified; starting may create draft, not verified",
+    "evidence": "Verified accessible page; listed downstream limitations"
+  },
+  {
+    "id": "P03",
+    "name": "Packages",
+    "arabic": "باقات الامتثال والحوكمة للمنشآت",
+    "route": "/portal/simah/packages",
+    "sections": [
+      "Nine package cards with price/type/action",
+      "All nine expanded benefit/suitability/CTA states",
+      "Annual readiness: 990 SAR/month ×12-month commitment OR 9,900 SAR/year upfront",
+      "Protected incorporation/trademark: authority fees separate",
+      "Coming soon: calendar, decision/share register, contract library, regulatory alerts"
+    ],
+    "fields": [],
+    "actions": [
+      "Expand/collapse details",
+      "Subscribe/Request controls",
+      "See corresponding nine SRV entries"
+    ],
+    "verifiedStates": "Collapsed/expanded cards",
+    "limits": "Subscribe and first package-request click produced no visible destination; service dialogs available from New service",
+    "evidence": "Verified accessible page; listed downstream limitations"
+  },
+  {
+    "id": "P04",
+    "name": "My projects",
+    "arabic": "مشاريعي",
+    "route": "/portal/simah/projects",
+    "sections": [
+      "Counts all/active/completed/suspended",
+      "My projects and Annual contracts tabs",
+      "Search by project/service; status chips",
+      "Statuses all/scheduled/active/completed/suspended",
+      "Annual-contract empty state: activated organization contract and linked services appear here"
+    ],
+    "fields": [
+      "Project/service search"
+    ],
+    "actions": [
+      "Search/filter",
+      "New service",
+      "Open project/contract when records exist"
+    ],
+    "verifiedStates": "No projects; no annual contracts",
+    "limits": "Project/contract detail pages unavailable",
+    "evidence": "Verified accessible page; listed downstream limitations"
+  },
+  {
+    "id": "P05",
+    "name": "Company documents",
+    "arabic": "مستودع المستندات",
+    "route": "/portal/simah/documents",
+    "sections": [
+      "Repository and expiry-reminder description",
+      "Add document dialog",
+      "Types: commercial registration (duplicate), zakat/tax, investment license, municipal license, articles, lease, ZATCA, social insurance, reminder/date"
+    ],
+    "fields": [
+      "Type selector",
+      "Title",
+      "Expiry (required in commercial-registration example)",
+      "Important date",
+      "Notes",
+      "Attachment upload"
+    ],
+    "actions": [
+      "Add",
+      "Choose type",
+      "Save/Cancel/Close",
+      "Important-date type removes expiry required marker"
+    ],
+    "verifiedStates": "Empty repository; add and reminder variants",
+    "limits": "No upload/save performed; details/edit/reminders unavailable",
+    "evidence": "Verified accessible page; listed downstream limitations"
+  },
+  {
+    "id": "P06",
+    "name": "Notifications",
+    "arabic": "الإشعارات",
+    "route": "/portal/simah/notifications",
+    "sections": [
+      "Home/back link",
+      "Mark-all-read",
+      "Filters: all/projects/payments/sessions/appointments/updates/general/unread",
+      "Notification list"
+    ],
+    "fields": [],
+    "actions": [
+      "Filter",
+      "Mark-all-read (disabled empty)",
+      "Open linked record when present"
+    ],
+    "verifiedStates": "No notifications",
+    "limits": "No populated item/deep link; event categories do not prove standalone pages",
+    "evidence": "Verified accessible page; listed downstream limitations"
+  },
+  {
+    "id": "P07",
+    "name": "Invoices",
+    "arabic": "الفواتير",
+    "route": "/portal/simah/invoices",
+    "sections": [
+      "Outstanding total",
+      "Search by claim reference/project",
+      "Filters: all/due/under review/paid/overdue/returned",
+      "Invoice list"
+    ],
+    "fields": [
+      "Reference/project search"
+    ],
+    "actions": [
+      "Search/filter",
+      "Open invoice/pay when available"
+    ],
+    "verifiedStates": "Zero balance; no invoices",
+    "limits": "Invoice details/payment/receipt unavailable; review statuses do not prove proof-upload method",
+    "evidence": "Verified accessible page; listed downstream limitations"
+  },
+  {
+    "id": "P08",
+    "name": "Quotations",
+    "arabic": "عروض الأسعار",
+    "route": "/portal/simah/quotations",
+    "sections": [
+      "Review/approve explanation",
+      "Search",
+      "Filter control",
+      "Quotation list"
+    ],
+    "fields": [
+      "Quotation search"
+    ],
+    "actions": [
+      "Search",
+      "Filter (no visible panel appeared)",
+      "Review/approve when records available"
+    ],
+    "verifiedStates": "No quotations",
+    "limits": "No detail, approval/expiry/rejection state accessible",
+    "evidence": "Verified accessible page; listed downstream limitations"
+  },
+  {
+    "id": "P09",
+    "name": "My team",
+    "arabic": "فريقي",
+    "route": "/portal/simah/team",
+    "sections": [
+      "Members with owner marker/contact/visible sections",
+      "Add member",
+      "Access modes: custom section access; view only; messages-only simplified interface",
+      "Nine section permissions; default all except Team management checked",
+      "Messages-only mode hides section matrix"
+    ],
+    "fields": [
+      "Name*",
+      "Mobile*",
+      "Email (optional)",
+      "Portal-login switch (default on)",
+      "Access type",
+      "Section checkbox matrix"
+    ],
+    "actions": [
+      "Add/Cancel/Close",
+      "Choose local access mode (cancelled)"
+    ],
+    "verifiedStates": "Owner-only list; form variants",
+    "limits": "No membership or permissions saved; non-owner edit/revoke/invitation unavailable",
+    "evidence": "Verified accessible page; listed downstream limitations"
+  },
+  {
+    "id": "P10",
+    "name": "Support",
+    "arabic": "الدعم",
+    "route": "/portal/simah/support",
+    "sections": [
+      "Prior-ticket search/list",
+      "Create ticket dialog",
+      "Phone/email/WhatsApp contact; hours 9am–5pm Sun–Thu",
+      "FAQ links: project progress/payment methods/final reports, targets #"
+    ],
+    "fields": [
+      "Ticket search",
+      "Subject*",
+      "Category*: inquiry/follow-up/document request/complaint/data update/new service",
+      "Additional details (optional)"
+    ],
+    "actions": [
+      "New ticket",
+      "Create (disabled blank); Cancel/Close",
+      "Direct contact",
+      "FAQ progress link produced no new content"
+    ],
+    "verifiedStates": "No tickets; blank dialog",
+    "limits": "No submitted ticket/details/replies/status; FAQ articles not verified",
+    "evidence": "Verified accessible page; listed downstream limitations"
+  },
+  {
+    "id": "P11",
+    "name": "My account",
+    "arabic": "حسابي",
+    "route": "/portal/simah/profile",
+    "sections": [
+      "Identity/account-active/verified badges and Logout",
+      "Personal info read-only; Edit enables name/email",
+      "Mobile always disabled; changes via Support",
+      "Notification matrix: payments/updates/messages/reports × WhatsApp/portal/email",
+      "Completed/active project summary → Projects",
+      "Arabic/English; security OTP/password prerequisite"
+    ],
+    "fields": [
+      "Name and email editable",
+      "Mobile disabled",
+      "12 notification checkboxes",
+      "Language controls"
+    ],
+    "actions": [
+      "Edit → Save/Cancel (cancelled unchanged)",
+      "Save preferences (disabled unchanged)",
+      "Projects",
+      "Logout (not used)"
+    ],
+    "verifiedStates": "Read-only and Edit states",
+    "limits": "English not switched; password/2FA full flow unavailable in current auth state",
+    "evidence": "Verified accessible page; listed downstream limitations"
+  },
+  {
+    "id": "P12",
+    "name": "New service",
+    "arabic": "طلب خدمة جديدة",
+    "route": "/portal/simah/new-service",
+    "sections": [
+      "Catalog search/category/quick-service filter",
+      "60 entries; duplicate product registrations kept distinct",
+      "Categories: Legal 11; Companies/governance 19; Annual contracts 1; Packages 9; Consulting 20",
+      "24 quoted forms; 35 fixed-price; 1 Sales-contact",
+      "Every loaded dialog inspected; all 35 company billing branches"
+    ],
+    "fields": [
+      "Search/category/quick filter",
+      "Service-specific fields in services.json",
+      "Conditional billing schema in form-schemas.json"
+    ],
+    "actions": [
+      "Choose service → dialog",
+      "Package recommendation branch",
+      "Final submission/payment deliberately untouched"
+    ],
+    "verifiedStates": "Loaded dialogs; optional company billing and representative individual billing",
+    "limits": "Post-submit request confirmation/checkout/internal records unverified; no service-specific URL exposed",
+    "evidence": "Verified accessible page; listed downstream limitations"
+  },
+  {
+    "id": "P13",
+    "name": "Messages",
+    "arabic": "الرسائل",
+    "route": "/portal/simah/messages",
+    "sections": [
+      "Projects/customer-service/sales channels",
+      "Participants toggle (empty project participant list)",
+      "Mute and emoji controls",
+      "Channel-specific message composer",
+      "Global messages drawer with Close"
+    ],
+    "fields": [
+      "Message textbox; no file-upload control observed"
+    ],
+    "actions": [
+      "Switch channel",
+      "View participants",
+      "Send (disabled empty; not clicked)",
+      "Open/close drawer"
+    ],
+    "verifiedStates": "Project starter; no participants; customer-service/sales empty",
+    "limits": "No send/mute action; populated conversations/delivery/attachments unverified",
+    "evidence": "Verified accessible page; listed downstream limitations"
+  }
+]

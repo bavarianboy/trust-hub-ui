@@ -1,0 +1,2037 @@
+[
+  {
+    "id": "SRV-001",
+    "index": 1,
+    "name": "إدارة حساب العميل على منصتي مدد وأجور",
+    "english": "Mudad/Ajour account management",
+    "price": null,
+    "currency": "SAR",
+    "category": "Governance",
+    "form": "Q",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Manage organization Mudad/Ajeer accounts, payroll, updates and obligations.",
+    "notes": "Catalog title uses أجور; description uses أجير. Confirm naming."
+  },
+  {
+    "id": "SRV-002",
+    "index": 2,
+    "name": "إعداد لائحة تنظيم العمل",
+    "english": "Internal work regulations preparation",
+    "price": 5500,
+    "currency": "SAR",
+    "category": "Consulting",
+    "form": "F50",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "stages": [
+      {
+        "name": "الدفعة الأولى — عند الطلب",
+        "amount": 2750,
+        "tasks": [
+          "بدء التنفيذ (1 يوم)"
+        ]
+      },
+      {
+        "name": "الدفعة الثانية — عند التسليم",
+        "amount": 2750,
+        "tasks": [
+          "تسليم المخرجات للعميل (1 يوم)"
+        ]
+      }
+    ],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached"
+  },
+  {
+    "id": "SRV-003",
+    "index": 3,
+    "name": "اتفاقية الشركاء (شريكان)",
+    "english": "Partner agreement (two partners)",
+    "price": 9500,
+    "currency": "SAR",
+    "category": "Consulting",
+    "form": "F50",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "stages": [
+      {
+        "name": "الدفعة الأولى — عند الطلب",
+        "amount": 4750,
+        "tasks": [
+          "بدء التنفيذ (1 يوم)"
+        ]
+      },
+      {
+        "name": "الدفعة الثانية — عند التسليم",
+        "amount": 4750,
+        "tasks": [
+          "تسليم المخرجات للعميل (1 يوم)"
+        ]
+      }
+    ],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached"
+  },
+  {
+    "id": "SRV-004",
+    "index": 4,
+    "name": "استكمال الاستبيان المالي - وزارة الاستثمار",
+    "english": "Ministry of Investment financial survey",
+    "price": 499,
+    "currency": "SAR",
+    "category": "Governance",
+    "form": "F",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Quarterly Ministry of Investment financial survey data based on company financial performance.",
+    "duration": "2 days; note says two working days",
+    "stages": [],
+    "notes": "No milestone/payment split shown; payment-method and billing controls verified."
+  },
+  {
+    "id": "SRV-005",
+    "index": 5,
+    "name": "اصدار بطاقة سائق- نقل عام",
+    "english": "Public-transport driver card",
+    "price": null,
+    "currency": "SAR",
+    "category": "Governance",
+    "form": "Q",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached"
+  },
+  {
+    "id": "SRV-006",
+    "index": 6,
+    "name": "اصدار تصريح ميناء لسائق شاحنه",
+    "english": "Truck-driver port permit",
+    "price": null,
+    "currency": "SAR",
+    "category": "Governance",
+    "form": "Q",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached"
+  },
+  {
+    "id": "SRV-007",
+    "index": 7,
+    "name": "اصدار كروت تسجيل مركبات",
+    "english": "Vehicle registration cards",
+    "price": null,
+    "currency": "SAR",
+    "category": "Governance",
+    "form": "Q",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached"
+  },
+  {
+    "id": "SRV-008",
+    "index": 8,
+    "name": "الاحالة لمن يلزم من المحاسبين القانونيين المرخصين لتدقيق القوائم المالية وايداعها .",
+    "english": "Licensed accountant referral for audit and filing",
+    "price": null,
+    "currency": "SAR",
+    "category": "Consulting",
+    "form": "Q",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Referral coordination with licensed accountant for audit and financial-statement filing."
+  },
+  {
+    "id": "SRV-009",
+    "index": 9,
+    "name": "الجمعية السنوية ومحضرها (سنة)",
+    "english": "Annual assembly and minutes",
+    "price": 2400,
+    "currency": "SAR",
+    "category": "Consulting",
+    "form": "F100",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "stages": [
+      {
+        "name": "دفعة كاملة",
+        "amount": 2400,
+        "tasks": [
+          "بدء تنفيذ الباقة (1 يوم)"
+        ]
+      }
+    ],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached"
+  },
+  {
+    "id": "SRV-010",
+    "index": 10,
+    "name": "تأسيس ذ.م.م / فردية / مهنية",
+    "english": "LLC / sole / professional entity incorporation",
+    "price": null,
+    "currency": "SAR",
+    "category": "Governance",
+    "form": "Q",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "recommendedService": "SRV-039",
+    "description": "Establish LLC, sole or professional entity."
+  },
+  {
+    "id": "SRV-011",
+    "index": 11,
+    "name": "تأسيس شركة مساهمة",
+    "english": "Joint-stock company incorporation",
+    "price": null,
+    "currency": "SAR",
+    "category": "Governance",
+    "form": "Q",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "recommendedService": "SRV-039",
+    "description": "Establish joint-stock company."
+  },
+  {
+    "id": "SRV-012",
+    "index": 12,
+    "name": "تأسيس فرع لشركة خليجية في المملكة العربية السعودية",
+    "english": "GCC company branch in Saudi Arabia",
+    "price": null,
+    "currency": "SAR",
+    "category": "Governance",
+    "form": "Q",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "recommendedService": "SRV-039"
+  },
+  {
+    "id": "SRV-013",
+    "index": 13,
+    "name": "تجديد السجل التجاري الخارجي",
+    "english": "External commercial registration renewal",
+    "price": null,
+    "currency": "SAR",
+    "category": "Governance",
+    "form": "Q",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Renew branch/external registration and linked information."
+  },
+  {
+    "id": "SRV-014",
+    "index": 14,
+    "name": "تجديد سجل تجاري",
+    "english": "Commercial registration renewal",
+    "price": null,
+    "currency": "SAR",
+    "category": "Governance",
+    "form": "Q",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached"
+  },
+  {
+    "id": "SRV-015",
+    "index": 15,
+    "name": "تحول شركه استثمارية من خدمية او صناعية الى تجارية",
+    "english": "Investment activity conversion to commercial",
+    "price": 28000,
+    "currency": "SAR",
+    "category": "Governance",
+    "form": "FM",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Convert investment activity from service/industrial to commercial, including MISA license, articles and registration.",
+    "duration": "30 days",
+    "documents": [
+      "Valid MISA license",
+      "Current registration and articles",
+      "Partners' activity-change resolution",
+      "New requested commercial activity",
+      "Latest financial statements",
+      "Bank certificate if needed"
+    ],
+    "terms": "Valid license; no unresolved violations/obligations; some activities may need extra approvals/capital. Government fees excluded unless stated. Portal copy says price excludes 15% VAT.",
+    "stages": [
+      {
+        "name": "١ — التقييم وتعديل الترخيص الاستثماري",
+        "amount": 11200,
+        "tasks": [
+          "Review company/conversion eligibility",
+          "Submit MISA activity amendment"
+        ]
+      },
+      {
+        "name": "٢ — تعديل عقد التأسيس والسجل التجاري",
+        "amount": 9800,
+        "tasks": [
+          "Draft/approve articles amendment",
+          "Update registration via Saudi Business Center"
+        ]
+      },
+      {
+        "name": "٣ — الإجراءات التكميلية والتسليم",
+        "amount": 7000,
+        "tasks": [
+          "Update chamber/operating-license records",
+          "Deliver amended documents"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SRV-016",
+    "index": 16,
+    "name": "تسجيل منتجات بالهيئات الحكومية المتخصصة",
+    "english": "Product registration — catalog entry A",
+    "price": null,
+    "currency": "SAR",
+    "category": "Governance",
+    "form": "Q",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "notes": "First duplicate-titled product-registration entry; no description shown."
+  },
+  {
+    "id": "SRV-017",
+    "index": 17,
+    "name": "تسجيل منتجات بالهيئات الحكومية المتخصصة",
+    "english": "Product registration — catalog entry B",
+    "price": null,
+    "currency": "SAR",
+    "category": "Governance",
+    "form": "Q",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Register products with specialized government bodies such as food/drug or standards authority.",
+    "notes": "Second duplicate-titled product-registration entry; description differs."
+  },
+  {
+    "id": "SRV-018",
+    "index": 18,
+    "name": "تقديم الدعم الاستشاري اللازم بشأن ضبط التكاليف",
+    "english": "Cost-control advisory",
+    "price": null,
+    "currency": "SAR",
+    "category": "Consulting",
+    "form": "Q",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Analyze cost structure and recommend cost control/efficiency."
+  },
+  {
+    "id": "SRV-019",
+    "index": 19,
+    "name": "توثيق جمعية فائتة بأثر رجعي",
+    "english": "Retrospective assembly documentation",
+    "price": 1900,
+    "currency": "SAR",
+    "category": "Consulting",
+    "form": "F100",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "stages": [
+      {
+        "name": "دفعة كاملة",
+        "amount": 1900,
+        "tasks": [
+          "بدء تنفيذ الباقة (1 يوم)"
+        ]
+      }
+    ],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached"
+  },
+  {
+    "id": "SRV-020",
+    "index": 20,
+    "name": "توثيق قرارات الشركاء وتسوية التوزيعات",
+    "english": "Partner decisions and distribution settlement",
+    "price": 2900,
+    "currency": "SAR",
+    "category": "Consulting",
+    "form": "F100",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "stages": [
+      {
+        "name": "دفعة كاملة",
+        "amount": 2900,
+        "tasks": [
+          "بدء تنفيذ الباقة (1 يوم)"
+        ]
+      }
+    ],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached"
+  },
+  {
+    "id": "SRV-021",
+    "index": 21,
+    "name": "دليل الإنهاء الوقائي والنماذج",
+    "english": "Preventive termination guide and templates",
+    "price": 1500,
+    "currency": "SAR",
+    "category": "Consulting",
+    "form": "F100",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "stages": [
+      {
+        "name": "دفعة كاملة",
+        "amount": 1500,
+        "tasks": [
+          "بدء تنفيذ الباقة (1 يوم)"
+        ]
+      }
+    ],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached"
+  },
+  {
+    "id": "SRV-022",
+    "index": 22,
+    "name": "ساعة مراجعة للعقود الطارئة",
+    "english": "Urgent contract review hour",
+    "price": 600,
+    "currency": "SAR",
+    "category": "Consulting",
+    "form": "F100",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "stages": [
+      {
+        "name": "دفعة كاملة",
+        "amount": 600,
+        "tasks": [
+          "بدء تنفيذ الباقة (1 يوم)"
+        ]
+      }
+    ],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached"
+  },
+  {
+    "id": "SRV-023",
+    "index": 23,
+    "name": "عقد سنوي",
+    "english": "Annual contract",
+    "price": null,
+    "currency": "SAR",
+    "category": "Annual contracts",
+    "form": "Q",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Annual multiple-service contract; UI says created by converting quotation following client approval."
+  },
+  {
+    "id": "SRV-024",
+    "index": 24,
+    "name": "قضية إدارية",
+    "english": "Administrative case",
+    "price": null,
+    "currency": "SAR",
+    "category": "Legal",
+    "form": "QC",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "المحكمة المختصة",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "label": "الدائرة",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Administrative-court/Board of Grievances disputes."
+  },
+  {
+    "id": "SRV-025",
+    "index": 25,
+    "name": "قضية تجارية",
+    "english": "Commercial case",
+    "price": null,
+    "currency": "SAR",
+    "category": "Legal",
+    "form": "QC",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "المحكمة المختصة",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "label": "الدائرة",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Commercial-court representation."
+  },
+  {
+    "id": "SRV-026",
+    "index": 26,
+    "name": "قضية تنفيذية",
+    "english": "Enforcement case",
+    "price": null,
+    "currency": "SAR",
+    "category": "Legal",
+    "form": "QC",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "المحكمة المختصة",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "label": "الدائرة",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Judgment/order enforcement."
+  },
+  {
+    "id": "SRV-027",
+    "index": 27,
+    "name": "قضية عقارية",
+    "english": "Real-estate case",
+    "price": null,
+    "currency": "SAR",
+    "category": "Legal",
+    "form": "QC",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "المحكمة المختصة",
+        "required": true,
+        "type": "text"
+      },
+      {
+        "label": "الدائرة",
+        "required": false,
+        "type": "text"
+      },
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached"
+  },
+  {
+    "id": "SRV-028",
+    "index": 28,
+    "name": "قضية مدنية",
+    "english": "Civil case",
+    "price": null,
+    "currency": "SAR",
+    "category": "Legal",
+    "form": "Q",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Civil claims, compensation or non-commercial disputes through judgment."
+  },
+  {
+    "id": "SRV-029",
+    "index": 29,
+    "name": "مراجعة اتفاقية شركاء قائمة",
+    "english": "Existing partner agreement review",
+    "price": 3500,
+    "currency": "SAR",
+    "category": "Consulting",
+    "form": "F100",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "stages": [
+      {
+        "name": "دفعة كاملة",
+        "amount": 3500,
+        "tasks": [
+          "بدء تنفيذ الباقة (1 يوم)"
+        ]
+      }
+    ],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached"
+  },
+  {
+    "id": "SRV-030",
+    "index": 30,
+    "name": "مراجعة الشرطة",
+    "english": "Police follow-up",
+    "price": null,
+    "currency": "SAR",
+    "category": "Legal",
+    "form": "Q",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached"
+  },
+  {
+    "id": "SRV-031",
+    "index": 31,
+    "name": "مراجعة النيابة",
+    "english": "Public prosecution follow-up",
+    "price": null,
+    "currency": "SAR",
+    "category": "Legal",
+    "form": "Q",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached"
+  },
+  {
+    "id": "SRV-032",
+    "index": 32,
+    "name": "مسك الدفاتر المحاسبية",
+    "english": "Bookkeeping",
+    "price": null,
+    "currency": "SAR",
+    "category": "Consulting",
+    "form": "Q",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Accounting-book organization and regular transaction recording."
+  },
+  {
+    "id": "SRV-033",
+    "index": 33,
+    "name": "معالجة بلوغ الخسائر نصف رأس المال",
+    "english": "Losses reaching half of capital remediation",
+    "price": 6500,
+    "currency": "SAR",
+    "category": "Consulting",
+    "form": "F50",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "stages": [
+      {
+        "name": "الدفعة الأولى — عند الطلب",
+        "amount": 3250,
+        "tasks": [
+          "بدء التنفيذ (1 يوم)"
+        ]
+      },
+      {
+        "name": "الدفعة الثانية — عند التسليم",
+        "amount": 3250,
+        "tasks": [
+          "تسليم المخرجات للعميل (1 يوم)"
+        ]
+      }
+    ],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached"
+  },
+  {
+    "id": "SRV-034",
+    "index": 34,
+    "name": "نقل ملكية عقار",
+    "english": "Real-estate ownership transfer",
+    "price": null,
+    "currency": "SAR",
+    "category": "Governance",
+    "form": "Q",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached"
+  },
+  {
+    "id": "SRV-035",
+    "index": 35,
+    "name": "نموذج عقد عملاء موحّد",
+    "english": "Standard customer contract template",
+    "price": 4900,
+    "currency": "SAR",
+    "category": "Consulting",
+    "form": "F100",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "stages": [
+      {
+        "name": "دفعة كاملة",
+        "amount": 4900,
+        "tasks": [
+          "بدء تنفيذ الباقة (1 يوم)"
+        ]
+      }
+    ],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached"
+  },
+  {
+    "id": "SRV-036",
+    "index": 36,
+    "name": "انشاء شركه بموجب اقامة مميزة",
+    "english": "Company formation under premium residency",
+    "price": 4500,
+    "currency": "SAR",
+    "category": "Governance",
+    "form": "FM",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Establish company for premium-residency holder, reserve name, draft articles, issue registration.",
+    "duration": "15 days",
+    "documents": [
+      "Valid premium residency",
+      "Passport",
+      "Partner/share details if applicable",
+      "Authenticated lease or premises ownership",
+      "National address",
+      "Requested commercial activity"
+    ],
+    "terms": "Residency must remain valid; government fees excluded unless stated; government processing affects time; portal says VAT added.",
+    "stages": [
+      {
+        "name": "١ — استلام الطلب والتحقق من الأهلية",
+        "amount": 1350,
+        "tasks": [
+          "Verify premium residency",
+          "Choose legal form/activity (ISIC)",
+          "Complete partners/share data"
+        ]
+      },
+      {
+        "name": "٢ — حجز الاسم التجاري وصياغة العقد",
+        "amount": 1800,
+        "tasks": [
+          "Check/reserve trade name",
+          "Draft articles/capital/shares",
+          "Authenticate articles"
+        ]
+      },
+      {
+        "name": "٣ — إصدار السجل التجاري والتسليم",
+        "amount": 1350,
+        "tasks": [
+          "Submit application and fees",
+          "Issue registration",
+          "Register chamber/national address and deliver documents"
+        ]
+      }
+    ],
+    "recommendedService": "SRV-039"
+  },
+  {
+    "id": "SRV-037",
+    "index": 37,
+    "name": "باقة الجاهزية المؤسسية",
+    "english": "Institutional readiness package",
+    "price": null,
+    "currency": "SAR",
+    "category": "Packages",
+    "form": "SALES",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "finalAction": "ابدأ جاهزيتك اليوم — شركتك تستحق أكثر من ورقة تأسيس",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Annual company readiness subscription.",
+    "benefits": [
+      "Live Hisana score (0–100) with findings and countdowns",
+      "Annual assembly invitation, agenda, minutes, resolutions and archiving",
+      "18 contract-review hours/year; no carryover; extra hour SAR 600",
+      "Coming soon: compliance calendar (60/30/7 reminders), decision/share register, contract library, regulatory alerts"
+    ],
+    "notes": "New-service catalog price to be determined; Packages page shows SAR 990/month with 12-month commitment or SAR 9,900 annual upfront. Dialog sends directly to Sales; no input fields, terms checkbox or payment schedule shown."
+  },
+  {
+    "id": "SRV-038",
+    "index": 38,
+    "name": "قضية مطالبة مالية",
+    "english": "Financial claim case",
+    "price": null,
+    "currency": "SAR",
+    "category": "Legal",
+    "form": "Q",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [
+      {
+        "label": "التفاصيل (نص حر)",
+        "required": null,
+        "type": "textarea"
+      }
+    ],
+    "finalAction": "إرسال الطلب",
+    "taxBillingBranch": false,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Financial recovery claim through court judgment."
+  },
+  {
+    "id": "SRV-039",
+    "index": 39,
+    "name": "باقة التأسيس المحصّن",
+    "english": "Protected incorporation package",
+    "price": 12900,
+    "currency": "SAR",
+    "category": "Packages",
+    "form": "F50",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "stages": [
+      {
+        "name": "الدفعة الأولى — عند الطلب",
+        "amount": 6450,
+        "tasks": [
+          "بدء التنفيذ (1 يوم)"
+        ]
+      },
+      {
+        "name": "الدفعة الثانية — عند التسليم",
+        "amount": 6450,
+        "tasks": [
+          "تسليم المخرجات للعميل (1 يوم)"
+        ]
+      }
+    ],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Protect a newly incorporated company.",
+    "benefits": [
+      "Partner agreement with deadlock/exit/share provisions",
+      "Documented initial share register",
+      "Trademark procedures and follow-up",
+      "Two model contracts for core roles",
+      "First-year compliance dates",
+      "One 30-minute advisory session"
+    ],
+    "notes": "Intellectual-property authority fees separate."
+  },
+  {
+    "id": "SRV-040",
+    "index": 40,
+    "name": "استشارة قانونية (حضورية او عن بعد)",
+    "english": "Legal consultation in person or remotely",
+    "price": 450,
+    "currency": "SAR",
+    "category": "Consulting",
+    "form": "FM",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Single-issue oral consultation in person or remotely.",
+    "duration": "3 days",
+    "documents": [
+      "Brief legal-issue summary",
+      "Related records voluntarily supplied (optional)"
+    ],
+    "terms": "Oral guidance for one issue; written formal advice is separate; portal says VAT added.",
+    "stages": [
+      {
+        "name": "١ — الحجز وعقد الجلسة",
+        "amount": 450,
+        "tasks": [
+          "Schedule/receive summary (1 day)",
+          "Hold session/note key points (1 day)",
+          "Provide guidance (1 day)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SRV-041",
+    "index": 41,
+    "name": "باقة ترتيب البيت",
+    "english": "Company cleanup package",
+    "price": 14900,
+    "currency": "SAR",
+    "category": "Packages",
+    "form": "F50",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "stages": [
+      {
+        "name": "الدفعة الأولى — عند الطلب",
+        "amount": 7450,
+        "tasks": [
+          "بدء التنفيذ (1 يوم)"
+        ]
+      },
+      {
+        "name": "الدفعة الثانية — عند التسليم",
+        "amount": 7450,
+        "tasks": [
+          "تسليم المخرجات للعميل (1 يوم)"
+        ]
+      }
+    ],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Organize historic company records and legal gaps.",
+    "benefits": [
+      "Full three-stage legal diagnosis/gap report",
+      "Retrospective missed-assembly documentation",
+      "Review/create partner agreement",
+      "Sensitive employee-contract gap check",
+      "Document classification/upload/archive",
+      "Final completed work/follow-up/priorities report"
+    ]
+  },
+  {
+    "id": "SRV-042",
+    "index": 42,
+    "name": "استشارة قانونية ( مكتوبة)",
+    "english": "Written legal consultation",
+    "price": 750,
+    "currency": "SAR",
+    "category": "Consulting",
+    "form": "FM",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Written formal legal opinion for one issue, delivered as PDF.",
+    "duration": "7 days",
+    "documents": [
+      "Detailed written issue description",
+      "Relevant documents/contracts if available"
+    ],
+    "terms": "Based on supplied records; no litigation/representation; portal says VAT added.",
+    "stages": [
+      {
+        "name": "١ — استلام الطلب والبحث",
+        "amount": 375,
+        "tasks": [
+          "Receive details/records (1 day)",
+          "Legal research (3 days)"
+        ]
+      },
+      {
+        "name": "٢ — الصياغة والتسليم",
+        "amount": 375,
+        "tasks": [
+          "Draft opinion (2 days)",
+          "Internal review/final PDF (1 day)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SRV-043",
+    "index": 43,
+    "name": "حزمة تحصين الفريق",
+    "english": "Team protection package",
+    "price": 6000,
+    "currency": "SAR",
+    "category": "Packages",
+    "form": "F50",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "stages": [
+      {
+        "name": "الدفعة الأولى — عند الطلب",
+        "amount": 3000,
+        "tasks": [
+          "بدء التنفيذ (1 يوم)"
+        ]
+      },
+      {
+        "name": "الدفعة الثانية — عند التسليم",
+        "amount": 3000,
+        "tasks": [
+          "تسليم المخرجات للعميل (1 يوم)"
+        ]
+      }
+    ],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Role-specific employee contract protection.",
+    "benefits": [
+      "Sensitive/ordinary role classification",
+      "Confidentiality/IP/non-compete/custody clauses",
+      "Update/create contracts for up to five employees",
+      "Licensed human review",
+      "Clause-use guide"
+    ],
+    "notes": "Package marketing says within a week; generic payment stages each show 1 day. Clarify timeline."
+  },
+  {
+    "id": "SRV-044",
+    "index": 44,
+    "name": "الحصول على الاقامة المميزة الدائمة",
+    "english": "Permanent premium residency application",
+    "price": 9900,
+    "currency": "SAR",
+    "category": "Governance",
+    "form": "FM",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Prepare/follow permanent premium-residency application through decision.",
+    "duration": "45 days",
+    "documents": [
+      "Valid passport",
+      "Certified criminal-record clearance",
+      "Approved medical report",
+      "Valid medical insurance",
+      "CV/qualifications/experience as applicable",
+      "Financial-capacity proof/bank statements as applicable",
+      "White-background photograph"
+    ],
+    "terms": "Professional preparation/follow-up fee excludes government issuance fee; authority decides acceptance, not guaranteed; portal says VAT added.",
+    "stages": [
+      {
+        "name": "١ — التقييم وتجهيز الملف",
+        "amount": 3960,
+        "tasks": [
+          "Assess pathway/conditions (2 days)",
+          "Collect/authenticate documents (7 days)"
+        ]
+      },
+      {
+        "name": "٢ — التقديم والمتابعة",
+        "amount": 3960,
+        "tasks": [
+          "Submit application/fees (2 days)",
+          "Follow/respond to authority (30 days)"
+        ]
+      },
+      {
+        "name": "٣ — الإصدار والتسليم",
+        "amount": 1980,
+        "tasks": [
+          "Receive approval (2 days)",
+          "Deliver residency proof (1 day)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SRV-045",
+    "index": 45,
+    "name": "حزمة العقد الآمن",
+    "english": "Safe contract package",
+    "price": 1900,
+    "currency": "SAR",
+    "category": "Packages",
+    "form": "F100",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "stages": [
+      {
+        "name": "دفعة كاملة",
+        "amount": 1900,
+        "tasks": [
+          "بدء تنفيذ الباقة (1 يوم)"
+        ]
+      }
+    ],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Risk review before signing a contract.",
+    "benefits": [
+      "Customer/supplier/partner contract up to 20 pages",
+      "Risk/impact/alternative wording report",
+      "Negotiation-ready amendments",
+      "Legal and business review",
+      "Licensed human review",
+      "Delivery within three working days of receipt"
+    ],
+    "notes": "3-working-day promise differs from generic 1-day payment task."
+  },
+  {
+    "id": "SRV-046",
+    "index": 46,
+    "name": "تأسيس شركة لمن له ترخيص سابق",
+    "english": "Company formation with existing license",
+    "price": 5900,
+    "currency": "SAR",
+    "category": "Governance",
+    "form": "FM",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Establish company/branch using existing investment license.",
+    "duration": "20 days",
+    "documents": [
+      "Valid MISA license/certificate",
+      "Partner/share details",
+      "Partner/representative identity/passports",
+      "Authenticated lease/ownership proof",
+      "Bank certificate for cash capital or approved in-kind valuation"
+    ],
+    "terms": "License valid at least 30 days when applying; government fees excluded unless stated; portal says VAT added.",
+    "stages": [
+      {
+        "name": "١ — التحقق من الترخيص",
+        "amount": 1180,
+        "tasks": [
+          "Verify license validity ≥30 days (1 day)"
+        ]
+      },
+      {
+        "name": "٢ — حجز الاسم وإعداد العقد",
+        "amount": 2360,
+        "tasks": [
+          "Reserve name (2 days)",
+          "Draft articles/shares/capital (3 days)"
+        ]
+      },
+      {
+        "name": "٣ — التقديم للسجل التجاري",
+        "amount": 1475,
+        "tasks": [
+          "Submit incorporation/fees (3 days)"
+        ]
+      },
+      {
+        "name": "٤ — الإصدار والإجراءات التكميلية والتسليم",
+        "amount": 885,
+        "tasks": [
+          "Issue registration, chamber/national address (3 days)",
+          "Deliver documents (1 day)"
+        ]
+      }
+    ],
+    "recommendedService": "SRV-039"
+  },
+  {
+    "id": "SRV-047",
+    "index": 47,
+    "name": "حزمة الإنهاء الآمن",
+    "english": "Safe termination package",
+    "price": 3500,
+    "currency": "SAR",
+    "category": "Packages",
+    "form": "F100",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "stages": [
+      {
+        "name": "دفعة كاملة",
+        "amount": 3500,
+        "tasks": [
+          "بدء تنفيذ الباقة (1 يوم)"
+        ]
+      }
+    ],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Review and document compliant employee termination.",
+    "benefits": [
+      "Contract and termination review",
+      "Statutory dues calculation",
+      "Timing/wording/documentation steps",
+      "Termination and release documents",
+      "Non-compete where feasible",
+      "Post-termination data/customer-protection guidance"
+    ]
+  },
+  {
+    "id": "SRV-048",
+    "index": 48,
+    "name": "حزمة الفحص الكامل (Due Diligence)",
+    "english": "Full due diligence package",
+    "price": 18000,
+    "currency": "SAR",
+    "category": "Packages",
+    "form": "F50",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "stages": [
+      {
+        "name": "الدفعة الأولى — عند الطلب",
+        "amount": 9000,
+        "tasks": [
+          "بدء التنفيذ (1 يوم)"
+        ]
+      },
+      {
+        "name": "الدفعة الثانية — عند التسليم",
+        "amount": 9000,
+        "tasks": [
+          "تسليم المخرجات للعميل (1 يوم)"
+        ]
+      }
+    ],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Company due diligence before acquisition/partnership.",
+    "benefits": [
+      "Contracts, obligations, disputes and violations",
+      "Partners/share register/management powers",
+      "License/zakat/employment/ZATCA compliance",
+      "Third-party contract risks",
+      "Executive summary/risk matrix/negotiation recommendations",
+      "60-minute results discussion"
+    ]
+  },
+  {
+    "id": "SRV-049",
+    "index": 49,
+    "name": "مراجعة لوائح العمل الداخلية والتحقق من مدى نظاميها وتقديم الاستشارات والتوصيات بشأنها",
+    "english": "Internal employment regulations review",
+    "price": 3900,
+    "currency": "SAR",
+    "category": "Consulting",
+    "form": "FM",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Review internal employment regulations for compatibility and recommendations.",
+    "duration": "14 days",
+    "documents": [
+      "Current regulations if available",
+      "Employment-contract models",
+      "Leave/sanctions/working-hours policies",
+      "Registration and employee count"
+    ],
+    "terms": "Review/report and one discussion session; ministry approval excluded; portal says VAT added.",
+    "stages": [
+      {
+        "name": "١ — استلام اللائحة والمراجعة والتحليل",
+        "amount": 1950,
+        "tasks": [
+          "Receive regulations/policies (2 days)",
+          "Compare and identify gaps (5 days)"
+        ]
+      },
+      {
+        "name": "٢ — التقرير وجلسة الاستشارة والتسليم",
+        "amount": 1950,
+        "tasks": [
+          "Draft recommendations (3 days)",
+          "Discuss with client (2 days)",
+          "Deliver final report (1 day)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SRV-050",
+    "index": 50,
+    "name": "إجراءات التحقيقات الداخلية مع الموظفين وتقديم التوصيات بالإجراءات النظامية المتبعة طبقا لنظام العمل ولوائحه",
+    "english": "Internal employee investigation",
+    "price": 900,
+    "currency": "SAR",
+    "category": "Consulting",
+    "form": "FM",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Internal employee investigation and recommended procedure.",
+    "duration": "10 days",
+    "documents": [
+      "Incident report",
+      "Relevant employee contract",
+      "Approved sanctions policy",
+      "Supporting correspondence/attendance/witness/evidence"
+    ],
+    "terms": "One incident; advisory recommendation; employer responsible for final decision; portal says VAT added.",
+    "stages": [
+      {
+        "name": "١ — استلام الواقعة",
+        "amount": 270,
+        "tasks": [
+          "Receive incident/supporting records (2 days)"
+        ]
+      },
+      {
+        "name": "٢ — التحقيق والتحليل",
+        "amount": 360,
+        "tasks": [
+          "Employee/witness hearings and evidence (4 days)",
+          "Match facts to rules/policy (2 days)"
+        ]
+      },
+      {
+        "name": "٣ — التوصية والتسليم",
+        "amount": 270,
+        "tasks": [
+          "Prepare report/recommendation (2 days)",
+          "Deliver report (1 day)"
+        ]
+      }
+    ],
+    "notes": "Overall estimate 10 days; task durations total 11. Preserve mismatch for product review."
+  },
+  {
+    "id": "SRV-051",
+    "index": 51,
+    "name": "حزمة العلامة التجارية",
+    "english": "Trademark package",
+    "price": 2900,
+    "currency": "SAR",
+    "category": "Packages",
+    "form": "F100",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "stages": [
+      {
+        "name": "دفعة كاملة",
+        "amount": 2900,
+        "tasks": [
+          "بدء تنفيذ الباقة (1 يوم)"
+        ]
+      }
+    ],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Trademark registration and protection.",
+    "benefits": [
+      "Name/logo conflict check",
+      "Activity and registration classes",
+      "Submit/follow application to certificate",
+      "Renewal alerts (UI states every ten years)",
+      "Imitation-response protocol during service"
+    ],
+    "notes": "Authority fees separate; product copy recorded, not independently verified legal advice."
+  },
+  {
+    "id": "SRV-052",
+    "index": 52,
+    "name": "حزمة الدورة المستندية",
+    "english": "Document-cycle package",
+    "price": 7900,
+    "currency": "SAR",
+    "category": "Packages",
+    "form": "F50",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "stages": [
+      {
+        "name": "الدفعة الأولى — عند الطلب",
+        "amount": 3950,
+        "tasks": [
+          "بدء التنفيذ (1 يوم)"
+        ]
+      },
+      {
+        "name": "الدفعة الثانية — عند التسليم",
+        "amount": 3950,
+        "tasks": [
+          "تسليم المخرجات للعميل (1 يوم)"
+        ]
+      }
+    ],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Document financial/operating workflow and authority.",
+    "benefits": [
+      "Analyze current operating/financial flows",
+      "Approval/authority matrix by amount and role",
+      "Written practical financial policy",
+      "Three documented key processes",
+      "90-minute remote team workshop",
+      "Review after 90 days"
+    ]
+  },
+  {
+    "id": "SRV-053",
+    "index": 53,
+    "name": "تقديم الدعم الاستشاري بشأن دليل الحسابات",
+    "english": "Chart-of-accounts advisory",
+    "price": 1900,
+    "currency": "SAR",
+    "category": "Consulting",
+    "form": "FM",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Review/prepare chart of accounts for activity and requirements.",
+    "duration": "14 days",
+    "documents": [
+      "Current chart if available",
+      "Activity/operation scale",
+      "Latest statements if available",
+      "Accounting software used"
+    ],
+    "terms": "Advisory chart work excludes data entry/bookkeeping/software operation; portal says VAT added.",
+    "stages": [
+      {
+        "name": "١ — الاستلام والمراجعة",
+        "amount": 950,
+        "tasks": [
+          "Receive chart/activity (2 days)",
+          "Analyze gaps/structure (4 days)"
+        ]
+      },
+      {
+        "name": "٢ — التوصية وجلسة الاستشارة والتسليم",
+        "amount": 950,
+        "tasks": [
+          "Prepare proposal/chart (3 days)",
+          "Discuss (1 day)",
+          "Deliver chart/recommendations (1 day)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SRV-054",
+    "index": 54,
+    "name": "مراقبة رفع اقرارات ضريبة القيمة المضافة",
+    "english": "VAT return submission monitoring",
+    "price": 990,
+    "currency": "SAR",
+    "category": "Consulting",
+    "form": "FM",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Monitor timely VAT return submission for one period.",
+    "duration": "30 days",
+    "documents": [
+      "VAT registration number",
+      "Commercial registration",
+      "Period VAT accounting-system report",
+      "Authority portal view authorization if needed"
+    ],
+    "terms": "Monitoring/reminders/documentation; preparation/filing on behalf excluded; portal says VAT added.",
+    "stages": [
+      {
+        "name": "١ — الإعداد",
+        "amount": 396,
+        "tasks": [
+          "Verify tax registration/monthly or quarterly cycle (2 days)"
+        ]
+      },
+      {
+        "name": "٢ — المراجعة الدورية والتنبيه",
+        "amount": 396,
+        "tasks": [
+          "Review period report (3 days)",
+          "Remind/verify timely filing (2 days)"
+        ]
+      },
+      {
+        "name": "٣ — التوثيق",
+        "amount": 198,
+        "tasks": [
+          "Document/archive filing confirmation (1 day)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SRV-055",
+    "index": 55,
+    "name": "تعديل على شركة قائمة",
+    "english": "Existing company amendment",
+    "price": 2900,
+    "currency": "SAR",
+    "category": "Governance",
+    "form": "FM",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "One amendment to existing registration/articles: partner, activity, capital or management.",
+    "duration": "14 days",
+    "documents": [
+      "Current registration/articles",
+      "Amendment details",
+      "Assembly/partners' resolution",
+      "Lease/ownership if address changes",
+      "New partner identities if applicable"
+    ],
+    "terms": "One amendment; external approvals can extend time; government fees excluded; portal says VAT added.",
+    "stages": [
+      {
+        "name": "١ — تحديد نوع التعديل وإعداد المستندات",
+        "amount": 1160,
+        "tasks": [
+          "Define amendment (1 day)",
+          "Draft articles amendment (3 days)"
+        ]
+      },
+      {
+        "name": "٢ — التقديم والمتابعة",
+        "amount": 1015,
+        "tasks": [
+          "Submit amendment (2 days)",
+          "Follow approvals if needed (5 days)"
+        ]
+      },
+      {
+        "name": "٣ — الإصدار والتسليم",
+        "amount": 725,
+        "tasks": [
+          "Issue amended registration (2 days)",
+          "Deliver records (1 day)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SRV-056",
+    "index": 56,
+    "name": "تأسيس شركة أجنبية من الصفر",
+    "english": "Foreign company formation from scratch",
+    "price": 8900,
+    "currency": "SAR",
+    "category": "Governance",
+    "form": "FM",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Foreign-investor company establishment from MISA license through registration.",
+    "duration": "45 days",
+    "documents": [
+      "Authenticated parent registration/articles",
+      "Parent resolution approving Saudi investment/company",
+      "Latest audited parent financial statements",
+      "Investor/representative passport",
+      "Cash-capital bank certificate or in-kind valuation",
+      "Business plan/feasibility study"
+    ],
+    "terms": "Professional fee only; government/authentication fees excluded; parent records require specified authentication; portal says VAT added.",
+    "stages": [
+      {
+        "name": "١ — استخراج الترخيص الاستثماري",
+        "amount": 2225,
+        "tasks": [
+          "Prepare/authenticate parent records (7 days)",
+          "Apply to MISA (5 days)"
+        ]
+      },
+      {
+        "name": "٢ — حجز الاسم التجاري وصياغة العقد",
+        "amount": 2225,
+        "tasks": [
+          "Check/reserve name (2 days)",
+          "Define partners/shares/capital and articles (4 days)"
+        ]
+      },
+      {
+        "name": "٣ — إصدار السجل التجاري",
+        "amount": 2670,
+        "tasks": [
+          "Submit/pay government fees/issue registration (5 days)"
+        ]
+      },
+      {
+        "name": "٤ — إجراءات تكميلية وتسليم",
+        "amount": 1780,
+        "tasks": [
+          "Chamber/national address/system files (4 days)",
+          "Deliver license/registration (1 day)"
+        ]
+      }
+    ],
+    "recommendedService": "SRV-039"
+  },
+  {
+    "id": "SRV-057",
+    "index": 57,
+    "name": "قضية أحوال شخصية",
+    "english": "Personal-status case",
+    "price": 10900,
+    "currency": "SAR",
+    "category": "Legal",
+    "form": "FM",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Personal-status litigation through judgment.",
+    "duration": "180 days",
+    "documents": [
+      "Parties' identity/residency if available",
+      "Marriage contract/divorce deed",
+      "Parentage/custody record if applicable",
+      "Litigation power of attorney",
+      "Supporting correspondence/documents"
+    ],
+    "terms": "One litigation level; appeal/enforcement separate; court/expert fees excluded; portal says VAT added.",
+    "stages": [
+      {
+        "name": "١ — الاستشارة وتقييم القضية",
+        "amount": 2180,
+        "tasks": [
+          "Review facts/documents/course (3 days)"
+        ]
+      },
+      {
+        "name": "٢ — إعداد وقيد الدعوى",
+        "amount": 3270,
+        "tasks": [
+          "Draft claim/evidence (3 days)",
+          "File via Najiz/schedule (5 days)"
+        ]
+      },
+      {
+        "name": "٣ — الترافع والمتابعة",
+        "amount": 3815,
+        "tasks": [
+          "Hearings/representation (90 days)"
+        ]
+      },
+      {
+        "name": "٤ — صدور الحكم والتسليم",
+        "amount": 1635,
+        "tasks": [
+          "Obtain/deliver judgment (7 days)",
+          "Enforcement/appeal guidance (2 days)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SRV-058",
+    "index": 58,
+    "name": "قضية جزائية",
+    "english": "Criminal case",
+    "price": 26900,
+    "currency": "SAR",
+    "category": "Legal",
+    "form": "FM",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Criminal representation through investigation/trial/judgment.",
+    "duration": "180 days",
+    "documents": [
+      "Identity/residency",
+      "Incident/arrest record if available",
+      "Power of attorney for investigation/court",
+      "Supporting correspondence, recordings, medical reports or evidence"
+    ],
+    "terms": "One litigation level including investigation/trial; appeal separate; court fees/fines excluded; portal says VAT added.",
+    "stages": [
+      {
+        "name": "١ — الاستشارة وتقييم القضية",
+        "amount": 5380,
+        "tasks": [
+          "Facts/evidence/strategy (3 days)"
+        ]
+      },
+      {
+        "name": "٢ — مرحلة التحقيق",
+        "amount": 6725,
+        "tasks": [
+          "Investigation representation (30 days)"
+        ]
+      },
+      {
+        "name": "٣ — إعداد الدعوى/الدفوع",
+        "amount": 5380,
+        "tasks": [
+          "Draft claim/defense/evidence (7 days)"
+        ]
+      },
+      {
+        "name": "٤ — الترافع أمام المحكمة",
+        "amount": 6725,
+        "tasks": [
+          "Court hearings/follow-up (90 days)"
+        ]
+      },
+      {
+        "name": "٥ — صدور الحكم والتسليم",
+        "amount": 2690,
+        "tasks": [
+          "Judgment/appeal recommendation (7 days)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SRV-059",
+    "index": 59,
+    "name": "قضية عمالية",
+    "english": "Labor case",
+    "price": 11900,
+    "currency": "SAR",
+    "category": "Legal",
+    "form": "FM",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "Labor dispute from amicable settlement through judgment.",
+    "duration": "180 days",
+    "documents": [
+      "Employment contract/relationship evidence",
+      "Attendance/payroll records",
+      "Warnings/termination/correspondence",
+      "Litigation power of attorney",
+      "Identity/residency"
+    ],
+    "terms": "Settlement and one litigation level; enforcement/appeal separate; portal says VAT added.",
+    "stages": [
+      {
+        "name": "١ — الاستشارة وتحديد المطالبات",
+        "amount": 1785,
+        "tasks": [
+          "Review contract/facts/claims (2 days)"
+        ]
+      },
+      {
+        "name": "٢ — التسوية الودية",
+        "amount": 2380,
+        "tasks": [
+          "Wuddi filing/settlement (21 days)"
+        ]
+      },
+      {
+        "name": "٣ — رفع الدعوى",
+        "amount": 2975,
+        "tasks": [
+          "Najiz claim if settlement fails (5 days)"
+        ]
+      },
+      {
+        "name": "٤ — الترافع والمتابعة",
+        "amount": 3570,
+        "tasks": [
+          "Hearings/follow-up (90 days)"
+        ]
+      },
+      {
+        "name": "٥ — صدور الحكم والتسليم",
+        "amount": 1190,
+        "tasks": [
+          "Judgment/enforcement guidance (7 days)"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "SRV-060",
+    "index": 60,
+    "name": "دراسة قانونية",
+    "english": "Legal study",
+    "price": 1900,
+    "currency": "SAR",
+    "category": "Consulting",
+    "form": "FM",
+    "evidence": "Verified request dialog; no submission",
+    "parentRoute": "/portal/simah/new-service",
+    "fields": [],
+    "finalAction": "تأكيد ودفع",
+    "taxBillingBranch": true,
+    "afterSubmission": "Unverified: confirmation, checkout, record creation and subsequent internal pages not reached",
+    "description": "In-depth legal study for agreed topic/scope.",
+    "duration": "14 days",
+    "documents": [
+      "Topic/scope definition",
+      "Related background/documents if available"
+    ],
+    "terms": "Final PDF within agreed scope; additions separately charged; portal says VAT added.",
+    "stages": [
+      {
+        "name": "١ — تحديد النطاق والبحث",
+        "amount": 950,
+        "tasks": [
+          "Agree scope/topic (2 days)",
+          "Research/analyze sources (5 days)"
+        ]
+      },
+      {
+        "name": "٢ — الصياغة والمراجعة والتسليم",
+        "amount": 950,
+        "tasks": [
+          "Draft findings/recommendations (4 days)",
+          "Internal review/final PDF (2 days)"
+        ]
+      }
+    ]
+  }
+]

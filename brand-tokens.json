@@ -1,0 +1,26 @@
+{
+  "name": "Trust Hub Business Solutions",
+  "source": "User-supplied brand reference and logo",
+  "colors": {
+    "navy": "#172247",
+    "navyElevated": "#222F5F",
+    "navyDeep": "#0F1734",
+    "blushPink": "hsl(351 33% 58%)",
+    "blushLight": "hsl(351 33% 58%)",
+    "roseGold": "#C78D7C",
+    "white": "#FFFFFF",
+    "surface": "#F7F8FC",
+    "ink": "#1A2238",
+    "muted": "#6C7488",
+    "border": "#E3E6EF"
+  },
+  "typography": {
+    "primary": "Norsal",
+    "weight": 200,
+    "fallback": "IBMArabic, Segoe UI, sans-serif",
+    "webfontStatus": "Bundled from user-supplied Norsal Light, Black and Black Italic OTF files"
+  },
+  "radius": {"card":"22px","control":"14px"},
+  "directions": ["rtl", "ltr"],
+  "breakpoints": {"tablet":"1050px","mobile":"720px"}
+}

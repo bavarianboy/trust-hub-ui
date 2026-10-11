@@ -1,0 +1,15 @@
+{
+  "valid": true,
+  "pageInterfaces": 15,
+  "serviceDialogs": 60,
+  "languages": [
+    "ar",
+    "en"
+  ],
+  "responsiveBreakpoints": {
+    "tablet": "1050px",
+    "mobile": "720px"
+  },
+  "missingRoutes": [],
+  "missingFiles": []
+}
